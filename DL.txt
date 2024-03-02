@@ -1,0 +1,30 @@
+*Random forest links: 1-https://builtin.com/data-science/random-forest-algorithm
+                      2-https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
+..
+*Voting links: 1-https://medium.com/@ranjankumar_29097/votingclassifier-3f85ba8e4580
+               2-https://techkluster.com/technology/hard-vs-soft-voting-classifiers/
+*note that is an example of using soft voting( if it is hard voting the final result is car):
+
+Given the scenario:
+
+Classifier M1 predicts "bus" with a confidence score of 0.3.
+Classifier M2 predicts "bus" with a confidence score of 0.4.
+Classifier M3 predicts "car" with a confidence score of 0.8.
+To perform soft voting:
+
+Multiply each predicted class by its corresponding confidence score:
+
+Weighted prediction of Classifier M1 = "bus" * 0.3 = "bus"
+Weighted prediction of Classifier M2 = "bus" * 0.4 = "bus"
+Weighted prediction of Classifier M3 = "car" * 0.8 = "car"
+Calculate the mean probability for each class by averaging the weighted predictions:
+
+Mean probability for "bus": (0.3 + 0.4) / 2 = 0.35
+Mean probability for "car": 0.8
+Choose the class with the highest mean probability:
+
+Final prediction: "car"
+..
+*Extra trees links: 1-https://towardsdatascience.com/what-when-how-extratrees-classifier-c939f905851c
+                    2-https://jagan-singhh.medium.com/extra-extremely-randomized-trees-5ce9026bd07f
+                    3-https://medium.com/@namanbhandari/extratreesclassifier-8e7fc0502c7
